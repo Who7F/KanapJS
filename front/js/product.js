@@ -42,7 +42,6 @@ function createDropDown(targetProduct){
 //	const translate = {'Blue', 'White':'blanc', 'Black', 'Black/Yellow', 'Black/Red', 'Green', 'Red', 'Orange', 'Pink', 'Grey', 'Purple', 'Navy', 'Silver', 'Brown', 'Yellow'};
 	//local declaration
 	const colors = document.getElementById('colors');
-	console.log(targetProduct['colors'].map(v => v));
 	
 	targetProduct['colors'].forEach(element => {
 		//local declaration
@@ -70,8 +69,6 @@ function addToCart(itemId){
 		}else{
 			alert("Nope");
 		}
-
-		myTest();
 	}
 }
 
